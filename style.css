@@ -1,0 +1,17 @@
+body{ background-color:#F7F7F7}
+
+.menu-list { display:block; background:black; border-radius:25px; -moz-border-radius:25px; -webkit-border-radius:25px;}
+
+.menu-list li { display:inline-block; }
+
+.menu-list li a { color:#F90004; display: block; text-decoration: none; text-transform: uppercase; font-size: 24px; padding:15px;}
+
+.hyper-link { transition: all .07s linear; position: relative;}
+	
+.hyper-link:hover .box-animation{ transform: translateZ(-5px) rotateX(90deg); }
+
+.box-animation { transition: all .3s ease-out; position: absolute;  transform: translatez(-25px); -moz-transform: translatez(-25px);-webkit-transform: translatez(-25px); transform-style:preserve-3d; top: 0; left: 0; display: block; width: 100%; height: 100%; }
+
+.front { transform: rotatex(0deg) translatez(35px); -moz- transform: rotatex(0deg) translatez(35px); -webkit- transform: rotatex(0deg) translatez(35px); position: absolute; display: block; width: 100%; height: 100%;  top: 0; left: 0; background:#982b29; padding: 15px; color: white; box-sizing: border-box;}
+
+.back { transform: rotatex(-90deg) translatez(25px); -moz-transform: rotatex(-90deg) translatez(25px); -webkit-transform: rotatex(-90deg) translatez(25px); position: absolute; display: block; width: 100%; height: 100%;  top: 0; left: 0; background:#419176; padding: 15px; color: white; box-sizing: border-box;}
